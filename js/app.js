@@ -43,7 +43,7 @@ var currentTime = Date.now();
 // 获取指定时间时间戳
 // 注1：这里写的是2012年9月1日0时0分0秒
 // 注2：Javascript中月份是实际数字减1
-var targetTime = (new Date(2019, 6, 1, 0, 0, 0)).getTime();
+var targetTime = (new Date(2019, 7, 1, 0, 0, 0)).getTime();
  
 // 获取差值，如果指定日期早于现在，则为负数
 var offsetTime = targetTime-currentTime ;
